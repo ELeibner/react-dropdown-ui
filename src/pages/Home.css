@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+}
+
+.container {
+  background: #f8f8f8;
+  padding: var(--spacing-medium);
+  height: 100vh;
+}
