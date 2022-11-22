@@ -14,8 +14,9 @@ interface DropdownProps {
   options: Option[];
   /**
    * Callback when a menu item is selected
+   * Not implemented as feature is out of scope, follow-up in #123
    */
-  //onChange: () => void;
+  onChange?: () => void;
 }
 
 export const DropDown: FC<DropdownProps> = ({ title, options }) => {
